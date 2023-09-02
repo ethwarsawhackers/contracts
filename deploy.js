@@ -22,7 +22,6 @@ async function deployContract() {
     // Warp initialization
     const warp = Warp.WarpFactory.forMainnet().use(new DeployPlugin());
     const walletAddress = await arweave.wallets.getAddress(jwk);
-    initialState.minter = walletAddress
     console.log(`Deploying contract for address ${walletAddress}`);
 
     // Deploying contract
