@@ -4,5 +4,5 @@ module.exports = async function (state, action, handler) {
         }
 }
 /*function-description
-Get questions to trivia, use `start` and `max` fields in input for pagination. 
+Get metadata.
 function-description*/

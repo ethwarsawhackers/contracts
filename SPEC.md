@@ -8,7 +8,7 @@ Warp Contracts for dForms
 
 `getMetadata` 
 
-> Get questions to trivia, use `start` and `max` fields in input for pagination.
+> Get metadata.
 
 `getQuestions` 
 
