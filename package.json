@@ -1,0 +1,31 @@
+{
+  "name": "dforms-contracts",
+  "version": "1.0.0",
+  "description": "Warp Contracts for dForms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethwarsawackers/contracts.git"
+  },
+  "keywords": [
+    "dforms",
+    "warp",
+    "hackathon"
+  ],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/ethwarsawackers/contracts/issues"
+  },
+  "homepage": "https://github.com/ethwarsawackers/contracts#readme",
+  "dependencies": {
+    "arweave": "^1.14.4",
+    "esbuild": "^0.19.2",
+    "replace-in-file": "^7.0.1",
+    "warp-contracts": "^1.4.17",
+    "warp-contracts-plugin-deploy": "^1.0.9"
+  }
+}
