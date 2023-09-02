@@ -29,7 +29,7 @@ async function deployContract() {
       wallet: jwk,
       src: contractSrc,
       initState: JSON.stringify(initialState),
-    }, true);
+    });
 
     const { contractTxId, srcTxId } = deployResult;
     console.log(`Deployment completed.\nDeployer: ${walletAddress}\nContract address: ${contractTxId}\nContract code address: ${srcTxId}`);
