@@ -5,7 +5,12 @@
   }
 
   const functionMap = {
-"getQuestions":require("./functions/getQuestions.js")
+"getEntries":require("./functions/getEntries.js"),
+"getMetadata":require("./functions/getMetadata.js"),
+"getQuestions":require("./functions/getQuestions.js"),
+"setOwnEntry":require("./functions/setOwnEntry.js"),
+"updateMetadata":require("./functions/updateMetadata.js"),
+"updateQuestion":require("./functions/updateQuestion.js")
   };
 
   const selectedFunction = functionMap[action.input.function];

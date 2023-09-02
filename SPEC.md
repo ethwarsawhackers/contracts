@@ -2,6 +2,26 @@
 
 Warp Contracts for dForms
 
+`getEntries` 
+
+> Returns all entries to trivia submitted, use `start` and `max` fields in input for pagination.
+
+`getMetadata` 
+
+> Get questions to trivia, use `start` and `max` fields in input for pagination.
+
 `getQuestions` 
 
-> Get questions to trivia
+> Get questions to trivia, use `start` and `max` fields in input for pagination.
+
+`setOwnEntry` 
+
+> Submit your answers to the trivia.
+
+`updateMetadata` 
+
+> Edit metadata, operator only.
+
+`updateQuestion` 
+
+> Edit single question, operator only.
